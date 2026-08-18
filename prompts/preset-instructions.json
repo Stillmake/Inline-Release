@@ -1,74 +1,89 @@
 {
-  "publishedDate": "2025-07-06T00:00:00Z",
-  "presets": [
+  "publishedDate": "2025-08-18T00:00:00Z",
+  "items": [
     {
+      "type": "prompt",
       "name": "Explain This",
       "define": "Explain the following text in clear, concise, easy-to-understand terms.\n\nSource text:\n{{s}}",
       "icon": "magnifyingglass"
     },
     {
+      "type": "prompt",
       "name": "Grammar Check",
       "define": "Correct the grammar and punctuation in the following text while preserving its meaning and tone. Return only the corrected version.\n\nSource text:\n{{s}}",
       "icon": "checkmark"
     },
     {
+      "type": "prompt",
       "name": "Learn English",
       "define": "Rewrite the following text in natural, standard English while preserving the original meaning.\nIf the original text contains any Chinese words or phrases, first provide the rewritten English, then list those Chinese words or phrases with a brief explanation of their meaning, usage, or grammar.\nIf there are no Chinese words or phrases, return only the rewritten English.\n\nSource text:\n{{s}}",
       "icon": "graduationcap"
     },
     {
+      "type": "prompt",
       "name": "Translate",
       "define": "Translate the following text into standard {{language}}. Return only the translation.\n\nSource text:\n{{s}}",
       "icon": "translate"
     },
     {
+      "type": "prompt",
       "name": "Summarize Quickly",
       "define": "Summarize the following text into concise key points.\n\nSource text:\n{{s}}",
       "icon": "note"
     },
     {
+      "type": "prompt",
       "name": "Polish Writing",
       "define": "Improve the clarity and tone of the following text while preserving its meaning. Return only the improved version.\n\nSource text:\n{{s}}",
       "icon": "pencil"
     },
     {
+      "type": "prompt",
       "name": "Draft Reply",
       "define": "Write a clear and professional reply based on the following text. Return only the reply.\n\nSource text:\n{{s}}",
       "icon": "envelope"
-    }
-  ],
-  "extendPresets": [
+    },
     {
+      "type": "divider"
+    },
+    {
+      "type": "prompt",
       "name": "SNS Grammar Check",
       "define": "Check the grammar and punctuation of the following social media text while preserving its tone. If there are no errors, reply exactly \"Correct\". Otherwise, return only the corrected version.\n\nSource text:\n{{s}}",
       "icon": "bubble"
     },
     {
+      "type": "prompt",
       "name": "Summarize",
       "define": "Summarize the following text and keep only the key points.\n\nSource text:\n{{s}}",
       "icon": "note"
     },
     {
+      "type": "prompt",
       "name": "Improve Writing",
       "define": "Improve the clarity, flow, and wording of the following text while preserving its meaning. Return only the improved version.\n\nSource text:\n{{s}}",
       "icon": "pencil"
     },
     {
+      "type": "prompt",
       "name": "Find Action Items",
       "define": "Extract the actionable items from the following text. Respond as a bullet list.\n\nSource text:\n{{s}}",
       "icon": "checklist"
     },
     {
+      "type": "prompt",
       "name": "Explain Like I'm Five",
       "define": "Explain the following text in simple terms a five-year-old could understand.\n\nSource text:\n{{s}}",
       "icon": "studentdesk"
     },
     {
+      "type": "prompt",
       "name": "Draft an Email",
       "define": "Use the following content as the goals and key points, then draft a professional email. Return only the email.\n\nSource text:\n{{s}}",
       "icon": "envelope"
     },
     {
+      "type": "prompt",
       "name": "Refactor Code",
       "define": "Refactor the following code for readability, performance, and best practices. Provide the refactored code first, followed by brief notes.\n\nSource code:\n{{s}}",
       "icon": "curlybraces"
