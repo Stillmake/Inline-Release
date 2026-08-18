@@ -1,5 +1,5 @@
 {
-  "publishedDate": "2025-08-18T00:00:00Z",
+  "publishedDate": "2026-08-18T08:35:36Z",
   "items": [
     {
       "type": "prompt",
@@ -22,7 +22,7 @@
     {
       "type": "prompt",
       "name": "Translate",
-      "define": "Translate the following text into standard {{language}}. Return only the translation.\n\nSource text:\n{{s}}",
+      "define": "Detect the dominant language of the text. If most characters are Chinese, translate to English. Otherwise, translate to Chinese. Output only the translation.\n\nSource text:\n{{s}}",
       "icon": "translate"
     },
     {
