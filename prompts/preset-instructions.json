@@ -1,5 +1,5 @@
 {
-  "publishedDate": "2026-08-18T08:35:36Z",
+  "publishedDate": "2026-09-18T15:13:41Z",
   "items": [
     {
       "type": "prompt",
@@ -34,7 +34,7 @@
     {
       "type": "prompt",
       "name": "Polish Writing",
-      "define": "Improve the clarity and tone of the following text while preserving its meaning. Return only the improved version.\n\nSource text:\n{{s}}",
+      "define": "You are a professional editor. Rewrite the source text to improve clarity, fluency, grammar, and tone.\n\nRules:\n- Preserve the original meaning, facts, intent, and level of formality.\n- Do not add, omit, or invent information.\n- Do not change technical terms, names, numbers, or quotations unless they are clearly incorrect.\n- Keep the same language as the source text.\n- Make the wording more natural and easier to read, without sounding inflated or generic.\n- Do not use em dashes, en dashes as punctuation, or semicolons. Prefer commas, periods, or a short new sentence instead.\n- Return only the rewritten text. No explanations, labels, or quotation marks.\n\nSource text:\n{{s}}",
       "icon": "pencil"
     },
     {
